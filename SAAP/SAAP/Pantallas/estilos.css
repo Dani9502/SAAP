@@ -1,0 +1,24 @@
+﻿body
+{
+
+}
+#superior {
+  margin-top:-5px;
+  background-color:#EE0808;
+  width:1400px;
+  height:80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#contenido{
+ width:1100px;
+ height:auto;
+ background-color: #ff0000;
+ margin-left: 50px;
+}
+#contenido h1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size:20px;
+        text-align:center;
+        color: whitesmoke;
+    }

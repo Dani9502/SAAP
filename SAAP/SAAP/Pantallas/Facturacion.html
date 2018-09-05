@@ -1,0 +1,182 @@
+﻿
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>SAAP</title>
+    <link href="estilos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+		<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.css" />
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic" />
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <link href="formulario.css" rel="stylesheet" />
+    </head>
+<body>
+<div id="superior">
+    <table>
+        <tr>
+            <td> <img src="../Images/fondo.PNG" width="30" height="60" /> </td>
+            <td> <img src="../Images/fondo.PNG" height="60" /> </td>
+            <td> <img src="../Images/fondo.PNG" height="60" /> </td>
+            <td>
+                <img src="../Images/logo saap auto fondo rojo.png" style="height: 78px; width: 95px" />
+            </td>
+        </tr>
+    </table>
+    
+    <table style="margin: -85px 180px 80px 470px;" >
+        <tr>
+            <td><img src="../Images/SAAP TEXTO.PNG" width="300" height="75"/> </td>
+            <td> <img src="../Images/fondo.PNG" height="40" /> </td>
+            <td> <img src="../Images/fondo.PNG" height="40" /> </td>
+            <td> <img src="../Images/fondo.PNG" height="40" /> </td> 
+            <td> <img src="../Images/fondo.PNG" height="40" /> </td> 
+            <td> <img src="../Images/fondo.PNG" height="40" /> </td> 
+            <td> <img src="../Images/fondo.PNG" height="40" /> </td> 
+            <td> <img src="../Images/fondo.PNG" height="40" /> </td> 
+            <td><img src="../Images/facebook rojo.PNG" width="40" height="40"/></td>
+            <td><img src="../Images/googlenegro.PNG" width="40" height="40" /></td>
+            <td><img src="../Images/instagram.PNG" width="40" height="40" /> </td>
+            <td><img src="../Images/twitter rojo.PNG" width="40" height="40" /> </td>
+            <td><img src="../Images/pinterest negro.PNG" width="40" height="40" /> </td>
+       </tr>
+    </table>
+    </div>
+   
+    <nav id="colorNav">
+        <ul>
+            <li class="green">
+                <a href="index.html" class="icon-home"></a>
+                
+            </li>
+            <li class="red">
+                <a href="#" class="icon-road"></a>
+                <ul>
+                    <li><a href="#">Ingreso de Vehículos</a></li>
+                </ul>
+            </li>
+            <li class="blue">
+                <a href="#" class="icon-edit"></a>
+                <ul>
+                    <li><a href="Crear convenios.html">Crear convenios</a></li>
+                    <li><a href="Revisar convenios.html">Revisar convenios</a></li>
+                    <li><a href="Facturacion.html">Facturación</a></li>
+                </ul>
+            </li>
+            <li class="yellow">
+                <a href="#" class="icon-user-md"></a>
+                <ul>
+                    <li><a href="Creacion de usuarios.html">Registro de usuarios</a></li>
+                    <li><a href="Modificación de Usuarios.html">Modificación de Usuarios</a></li>
+                    <li><a href="Eliminar usuarios.html">Eliminar usuario</a></li>
+                </ul>
+            </li>
+            <li class="purple">
+                <a href="#" class="icon-calendar"></a>
+                <ul>
+                    <li><a href="Liquidar tiempos.html">Liquidacion de tiempos</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </nav>
+    <div style="text-align:center;padding:1em 0;"> <h2><a style="text-decoration:none;" href="https://www.zeitverschiebung.net/es/city/3688689"><span style="color:gray;">Hora actual en</span><br />Bogotá, Colombia</a></h2> <iframe src="https://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&size=large&timezone=America%2FBogota" width="100%" height="140" frameborder="0" seamless></iframe> </div>
+    <div id="contenido">
+        <center>
+            <table style="width: 90%; height: 95px;">
+                <caption>
+                </caption>
+                <tr>
+                    <td colspan="3" style="text-align:center; background-color: #FF0000; font-family: Arial; font-size: xx-large; font-weight: normal; text-transform: capitalize; color: #FFFFFF;" class="auto-style22">Facturacion</td>
+                </tr>
+
+            </table>
+            <table class="auto-style27">
+
+                <tr>
+                    <td class="auto-style32">
+                        Factura N°
+                    </td>
+                    <td colspan="3"><input id="Text8" class="auto-style33" type="text" size="5" /></td>
+                </tr>
+                <tr>
+
+                    <td class="auto-style32">Nombre del Cliente</td>
+                    <td class="auto-style32" colspan="3">
+                        <input id="Text2" class="auto-style35" type="text" size="80" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="auto-style32">Documento</td>
+                    <td class="auto-style34" colspan="3"><input id="Text9" class="auto-style36" type="text" /> </td>
+
+                </tr>
+                <tr>
+                    <th class="auto-style32" colspan="4"></th>
+                </tr>
+            </table>
+            <br />
+            <br />
+            <table>
+                <tr>
+                    <td class="auto-style32" colspan="4"><strong><center>Datos del Vehiculo</center></strong></td>
+                </tr>
+                <tr>
+                    <td colspan="4">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style32">Placa /N Serie</td>
+                    <td class="auto-style32">
+                        <input id="Text4" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style34">Color</td>
+                    <td class="auto-style34">
+                        <input id="Text5" class="auto-style29" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                <td class="auto-style26">Marca</td>
+                    <td class="auto-style26">
+                        <input id="Text6" class="auto-style31" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                <td>Referencia</td>
+                <td>
+                    <input id="Text7" class="auto-style30" type="text" />
+                </td>
+                </tr>
+                <tr>
+                    <td class="auto-style28" colspan="4">&nbsp;</td>
+
+                </tr>
+                <tr>
+                    <td class="auto-style32">Descripcion</td>
+                    <td class="auto-style26" colspan="3"><textarea rows="5" cols="50"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td class="auto-style32">
+                        Total Tiempo
+                    </td>
+                    <td class="auto-style34" colspan="3"><input id="Text10" class="auto-style36" type="text" /></td>
+                </tr>
+                <tr>
+                    <td class="auto-style32">
+                        <h2> Valor a Pagar</h2>
+                    </td>
+                    <td class="auto-style34" colspan="3"><input id="Text11" class="auto-style36" type="text" /></td>
+                </tr>
+            </table>
+        </center>
+    </div>
+    </div>
+    <br />
+    <br />
+</body>
+    
+</html>
